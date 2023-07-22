@@ -2,32 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/materialize.min.css">
-    <link rel="stylesheet" href="./css/sweetalert2.min.css">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container">
-        <form class="center-align">
-            <h3>Login</h3>
-            <div>
-                <label for="password">Usuario</label>
-                <input id="Usuario" name="Usuario" type="text">
-            </div>
-            <div>
-                <label for="Contraseña">Contraseña</label>
-                <input id="Contraseña" name="password" type="password">
-            </div>
-            <div class="card-actions">
-                <input id="Entrada" type="button" value="Entrada">
-            </div>
-        </form>
-    </div>
-    <script src="./js/jquery.js"></script>
-    <script src="./js/sweetalert2.min.js"></script>
-    <script src="./js/accion.js"></script>
-    <script src="./js/materialize.min.js"></script>
+    <form action="">
+        <section class="form-c">
+            <h1>Datos personales</h1>
+            <h4>Nombre</h4>
+            <input type="text">
+            <h4>Apellido</h4>
+            <input type="text">
+            <h4>Numero de Carnet</h4>
+            <input type="text">
+            <h2>Porcentaje de Notas</h2>
+            <input type="radio" name="una"><label for="">60-70</label>
+            <input type="radio" name="una"><label for="">70-80</label>
+            <input type="radio" name="una"><label for="">80-90</label>
+            <input type="radio" name="una"><label for="">90-100</label>
+            <h4>Carrera</h4>
+            <select name="" id="">
+            <option value="">Elegir carrera</option>          
+            <option value="">Ing. Sistema</option>
+            <option value="">Ing. Industrial</option>
+            <option value="">Ing. Computacion</option>
+            </select>
+            <h2>Aplica a beca</h2>
+            <button onclick="">Solicitar Beca</button>
+            <a href="./pagina/index.html">solicitar</a>
+            
+        </section>
+    </form>
+    
     
 </body>
 </html>
